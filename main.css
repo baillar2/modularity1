@@ -70,16 +70,29 @@
 }
 /* LIGHT BOX */
 .background {
+	position: relative;
 	width:80%;
-	height:400px;
+	height:350px;
 	background-color: #474747;
 	margin:auto;
 	padding: 10%;
 }
 .main-box {
-	margin: auto;
-	background-color: #AAAAAA;
-	width: 80%;
-	height: 60%;
+	position: relative; ;
+	vertical-align: auto;
+	background-color: white;
+	width: 65%;
 	border-radius: 5px;
+	padding:10px;
+	margin:0 auto;
+	overflow: auto;
+}
+	
+a {
+	border-radius: 4px;
+	background-color: #FF7F7F;
+	padding:10px 20px 10px 20px;
+	float:right;
+	color: white;
+	text-decoration: none;
 }
