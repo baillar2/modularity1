@@ -1,1 +1,85 @@
-/* ADD YOUR STYLES HERE */
+/* FIRST TABLE */
+.first-table {
+	margin: auto;
+	width: 80%; 
+}
+.first-table td {
+	height: 50px;
+	text-align: center;
+	vertical-align: center;
+}
+.first-table tr {
+	border-bottom: 1px solid #d3d3d3;
+}
+.first-table tr:last-of-type{
+	border:none;
+}
+/* SECOND TABLE */
+.second-table {
+	margin: auto;
+	width: 80%;
+}
+.second-table tr {
+	height: 50px;
+	text-align: center;
+	vertical-align: center;
+	border-bottom:1px solid #d3d3d3;
+}
+.second-table th {
+	font-weight: bold;
+	border-bottom: 2px solid black;
+}
+.second-table tr:last-of-type {
+	border:none;
+}
+/* THIRD TABLE */
+.third-table {
+	height: 100px;
+	width:200px;
+	text-align: center;
+	vertical-align: center;
+	border-bottom: 1px solid #8C8C8C;
+	border-top: 1px solid #8C8C8C;
+}
+.digits {
+	font-size: 38px;
+	font-weight: bold;
+}
+.caption {
+	font-size:16px;
+	color: #8C8C8C;
+}
+/* BAR CHART */
+.barchart {
+	text-align: left;
+}
+.barchart tr {
+	height: 20px;
+}
+.barchart td div {
+	background-color: #009ACD;
+	border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+	padding-left: 3px;
+}
+.barchart td {
+	font-size: 14px;
+	font-weight: lighter;
+	color: white;
+	width:500px;
+}
+/* LIGHT BOX */
+.background {
+	width:80%;
+	height:400px;
+	background-color: #474747;
+	margin:auto;
+	padding: 10%;
+}
+.main-box {
+	margin: auto;
+	background-color: #AAAAAA;
+	width: 80%;
+	height: 60%;
+	border-radius: 5px;
+}
