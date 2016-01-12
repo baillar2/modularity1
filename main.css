@@ -96,3 +96,12 @@ a {
 	color: white;
 	text-decoration: none;
 }
+/* MEDIA BLOCK */
+.media {
+	float: left;
+	margin-right: 10px;
+}
+.info {
+	clear: right;
+	overflow: auto;
+
